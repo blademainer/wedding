@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<!-- saved from url=(0027)http://www.wedxt.com/s-aefe -->
+<html lang="zh-CN">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <script type="text/javascript">window.NREUM || (NREUM = {});
+    NREUM.info = {
+        "beacon": "beacon-4.newrelic.com",
+        "errorBeacon": "bam.nr-data.net",
+        "licenseKey": "4dcf0bad7e",
+        "applicationID": "7136255",
+        "transactionName": "dg0KRBBWVVsBRUpCGFwMAFUa",
+        "queueTime": 0,
+        "applicationTime": 271,
+        "agent": "js-agent.newrelic.com/nr-476.min.js"
+    }</script>
+    <script type="text/javascript">window.NREUM || (NREUM = {}), __nr_require = function (t, e, n) {
+        function r(n) {
+            if (!e[n]) {
+                var o = e[n] = {exports: {}};
+                t[n][0].call(o.exports, function (e) {
+                    var o = t[n][1][e];
+                    return r(o ? o : e)
+                }, o, o.exports)
+            }
+            return e[n].exports
+        }
+
+        if ("function" == typeof __nr_require)return __nr_require;
+        for (var o = 0; o < n.length; o++)r(n[o]);
+        return r
+    }({
+        QJf3ax: [function (t, e) {
+            function n(t) {
+                function e(e, n, a) {
+                    t && t(e, n, a), a || (a = {});
+                    for (var c = u(e), f = c.length, s = i(a, o, r), p = 0; f > p; p++)c[p].apply(s, n);
+                    return s
+                }
+
+                function a(t, e) {
+                    f[t] = u(t).concat(e)
+                }
+
+                function u(t) {
+                    return f[t] || []
+                }
+
+                function c() {
+                    return n(e)
+                }
+
+                var f = {};
+                return {on: a, emit: e, create: c, listeners: u, _events: f}
+            }
+
+            function r() {
+                return {}
+            }
+
+            var o = "nr@context", i = t("gos");
+            e.exports = n()
+        }, {gos: "7eSDFh"}], ee: [function (t, e) {
+            e.exports = t("QJf3ax")
+        }, {}], gos: [function (t, e) {
+            e.exports = t("7eSDFh")
+        }, {}], "7eSDFh": [function (t, e) {
+            function n(t, e, n) {
+                if (r.call(t, e))return t[e];
+                var o = n();
+                if (Object.defineProperty && Object.keys)try {
+                    return Object.defineProperty(t, e, {value: o, writable: !0, enumerable: !1}), o
+                } catch (i) {
+                }
+                return t[e] = o, o
+            }
+
+            var r = Object.prototype.hasOwnProperty;
+            e.exports = n
+        }, {}], D5DuLP: [function (t, e) {
+            function n(t, e, n) {
+                return r.listeners(t).length ? r.emit(t, e, n) : (o[t] || (o[t] = []), void o[t].push(e))
+            }
+
+            var r = t("ee").create(), o = {};
+            e.exports = n, n.ee = r, r.q = o
+        }, {ee: "QJf3ax"}], handle: [function (t, e) {
+            e.exports = t("D5DuLP")
+        }, {}], XL7HBI: [function (t, e) {
+            function n(t) {
+                var e = typeof t;
+                return !t || "object" !== e && "function" !== e ? -1 : t === window ? 0 : i(t, o, function () {
+                    return r++
+                })
+            }
+
+            var r = 1, o = "nr@id", i = t("gos");
+            e.exports = n
+        }, {gos: "7eSDFh"}], id: [function (t, e) {
+            e.exports = t("XL7HBI")
+        }, {}], loader: [function (t, e) {
+            e.exports = t("G9z0Bl")
+        }, {}], G9z0Bl: [function (t, e) {
+            function n() {
+                var t = l.info = NREUM.info;
+                if (t && t.agent && t.licenseKey && t.applicationID && c && c.body) {
+                    l.proto = "https" === p.split(":")[0] || t.sslForHttp ? "https://" : "http://", a("mark", ["onload", i()]);
+                    var e = c.createElement("script");
+                    e.src = l.proto + t.agent, c.body.appendChild(e)
+                }
+            }
+
+            function r() {
+                "complete" === c.readyState && o()
+            }
+
+            function o() {
+                a("mark", ["domContent", i()])
+            }
+
+            function i() {
+                return (new Date).getTime()
+            }
+
+            var a = t("handle"), u = window, c = u.document, f = "addEventListener", s = "attachEvent", p = ("" + location).split("?")[0], l = e.exports = {
+                offset: i(),
+                origin: p,
+                features: {}
+            };
+            c[f] ? (c[f]("DOMContentLoaded", o, !1), u[f]("load", n, !1)) : (c[s]("onreadystatechange", r), u[s]("onload", n)), a("mark", ["firstbyte", i()])
+        }, {handle: "D5DuLP"}]
+    }, {}, ["G9z0Bl"]);</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title -->
+    <title>我们结婚了</title>
+    <meta name="description" content="我们定于2015-01-03举行宴请典礼，敬请光临！">
+    <meta name="keywords" content="我们结婚了|">
+    <meta name="author" content="blademainer">
+
+    <!-- [[head start]] -->
+    <!-- Stylesheets -->
+    <link href="http://www.wedxt.cn/templates/wed/responsive-onepage-wed/style/bootstrap.min.css" rel="stylesheet">
+    <link href="http://www.wedxt.cn/templates/wed/responsive-onepage-wed/style/flexslider.css" rel="stylesheet">
+    <link href="http://libs.baidu.com/fontawesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
+    <link href="http://www.wedxt.cn/templates/wed/responsive-onepage-wed/style/style.css" rel="stylesheet">
+    <link id="theme" rel="stylesheet"
+          href="http://www.wedxt.cn/templates/wed/responsive-onepage-wed/style/thume-red.css">
+
+    <!-- Respond JS for IE8 -->
+    <script src="./s-aefe_files/respond.min.js"></script>
+    <!-- HTML5 Support for IE -->
+    <script src="./s-aefe_files/html5shiv.js"></script>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="http://www.wedxt.cn/templates/wed/responsive-onepage-wed/img/favicon/favicon.png">
+    <!-- [[head end]] -->
+
+
+    <!-- baidu map 1 start -->
+    <script type="text/javascript" src="./s-aefe_files/api"></script>
+    <script type="text/javascript" src="./s-aefe_files/getscript"></script>
+    <script type="text/javascript" src="./s-aefe_files/getscript(1)"></script>
+    <!-- baidu map 1 end -->
+
+    <style id="style-1-cropbar-clipper">/* Copyright 2014 Evernote Corporation. All rights reserved. */
+    .en-markup-crop-options {
+        top: 18px !important;
+        left: 50% !important;
+        margin-left: -100px !important;
+        width: 200px !important;
+        border: 2px rgba(255, 255, 255, .38) solid !important;
+        border-radius: 4px !important;
+    }
+
+    .en-markup-crop-options div div:first-of-type {
+        margin-left: 0px !important;
+    }
+    </style>
+</head>
+
+<body>
+<!-- [[header start]] -->
+<!-- Bootstrap navbar -->
+<div class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner">
+
+    <div class="container">
+        <div class="navbar-header">
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+                <span class="sr-only">菜单</span>
+                <span class="icon icon-bar"></span>
+                <span class="icon icon-bar"></span>
+                <span class="icon icon-bar"></span>
+            </button>
+
+        </div>
+        <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+            <ul class="nav navbar-nav">
+                <!-- Navigation links. Note down the class name. It is important -->
+                <li><a href="#home" class="anchorLink">真诚邀请</a></li>
+                <li><a href="#about" class="anchorLink">邀请函</a></li>
+                <li><a href="#photos" class="anchorLink">电子相册</a></li>
+                <li><a href="#wedding" class="anchorLink">宴席安排</a></li>
+                <!--<li><a href="">留言回执</a></li>-->
+            </ul>
+        </nav>
+    </div>
+</div>
+<a name="home" id="home"></a>
+<!-- [[header end]] -->
+
+
+<!-- Header -->
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="hero">
+                    <!-- Getting married -->
+                    <h1>我们结婚了</h1>
+
+                    <div class="well">
+                        <!-- date -->
+                        <h3>2015-01-03</h3>
+
+                        <div class="bor"></div>
+                        <h2> 熊瑛琪
+                            <img src="./s-aefe_files/heartin.png" alt="">
+                            刘丹</h2>
+
+                        <div class="bor"></div>
+                        <!-- Small para -->
+                        <p>2006年的9月，他们第一次相遇；之后他俩成了相交甚好的同学，开启了一段冲往象牙塔的梦想之旅。
+                        </p>
+
+                    </div>
+                    <!-- Button. Note down the class "button" -->
+                    <div class="button">
+                        <a href="#wedding" class="anchorLink">宴席安排</a> &nbsp;
+                        <!--<a href="">留言回执</a>-->
+                    </div>
+                    <!--fn-声音显示 -->
+                    <section class="fn-audio">
+                        <div class="btn">
+                            <p class="btn_audio"><span class="css_sprite01 audio_open"></span><span
+                                    class="css_sprite01 audio_close"></span></p>
+                            <audio id="car_audio" controls="" preload="preload" autoplay="autoplay">
+                                <source src="musics/1.mp3" type="audio/mpeg">
+                                
+                                您的浏览器不支持HTML5音频格式
+                            </audio>
+
+                        </div>
+                    </section>
+                    <!--fn-声音显示 end-->
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- 爱情故事 开始-->
+<a name="about" id="about"></a>
+
+<div class="border"></div>
+
+<div class="aboutus">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="well center">
+                    <div class="head">
+                        <!-- Our love story -->
+                        <h3>爱的宣言</h3>
+
+                        <div class="bor"></div>
+                        <div><p>各位亲朋好友：在这温馨浪漫，喜悦甜蜜的日子里我俩决定于2015-01-03举行宴请典礼，届时敬备酒宴，欢迎您到来分享这份喜悦，您的光临将使我们的婚宴增添万分光彩!
+                        </p></div>
+                    </div>
+                </div>
+            </div>
+            <!-- 新郎新娘贺词-->
+        </div>
+    </div>
+</div>
+<!-- 爱情故事 结束-->
+
+<div class="border"></div>
+<a name="photos" id="photos"></a>
+<hr>
+<div class="itop"><a href="#home" class="anchorLink"><i class="fa fa-chevron-up"></i></a></div>
+<div class="border"></div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="head">
+                <div class="bor"></div>
+                <h2>电子相册</h2>
+
+                <div class="bor"></div>
+            </div>
+        </div>
+        <div class="col-md-12">
+
+            <!-- Slider (Flex Slider -->
+            <!-- Flex slider -->
+            <div class="flexslider">
+
+                <div class="flex-viewport" style="overflow: hidden; position: relative;">
+                    <ul class="slides"
+                        style="width: 1600%; -webkit-transition: 0s; transition: 0s; -webkit-transform: translate3d(-1932px, 0px, 0px);">
+                        <li class="clone" style="float: left; display: block; width: 966px;">
+                            <!-- Image -->
+                            <img alt="Original" class="img-responsive" quality="100" src="pictures/1.jpg">
+                            <!--  <div class="flex-caption">
+                                <h3>红红火火</h3>
+                                <p>见证爱情. </p>
+                             </div> -->
+                        </li>
+                        <!-- Each slide should be enclosed inside li tag. -->
+                        <!-- Slide #1 -->
+                        <li class="" style="float: left; display: block; width: 966px;">
+                            <!-- Image -->
+                            <img alt="Original" class="img-responsive" quality="100"
+                                 src="pictures/2.jpg">
+                            <!--  <div class="flex-caption">
+                                <h3>红红火火</h3>
+                                <p>见证爱情. </p>
+                             </div> -->
+                        </li>
+                        <!-- Slide #1 -->
+                        <li style="float: left; display: block; width: 966px;" class="flex-active-slide">
+                            <!-- Image -->
+                            <img alt="Original" class="img-responsive" quality="100"
+                                 src="pictures/3.jpg">
+                            <!--  <div class="flex-caption">
+                                <h3>红红火火</h3>
+                                <p>见证爱情. </p>
+                             </div> -->
+                        </li>
+                        <!-- Slide #1 -->
+                        <li style="float: left; display: block; width: 966px;" class="">
+                            <!-- Image -->
+                            <img alt="Original" class="img-responsive" quality="100"
+                                 src="pictures/4.jpg">
+                            <!--  <div class="flex-caption">
+                                <h3>红红火火</h3>
+                                <p>见证爱情. </p>
+                             </div> -->
+                        </li>
+                        <!-- Slide #1 -->
+                        <li style="float: left; display: block; width: 966px;" class="">
+                            <!-- Image -->
+                            <img alt="Original" class="img-responsive" quality="100"
+                                 src="pictures/5.jpg">
+                            <!--  <div class="flex-caption">
+                                <h3>红红火火</h3>
+                                <p>见证爱情. </p>
+                             </div> -->
+                        </li>
+                        <li style="float: left; display: block; width: 966px;" class="">
+                            <!-- Image -->
+                            <img alt="Original" class="img-responsive" quality="100"
+                                 src="pictures/6.jpg">
+                            <!--  <div class="flex-caption">
+                                <h3>红红火火</h3>
+                                <p>见证爱情. </p>
+                             </div> -->
+                        </li>
+                        <li style="float: left; display: block; width: 966px;" class="">
+                            <!-- Image -->
+                            <img alt="Original" class="img-responsive" quality="100"
+                                 src="pictures/7.jpg">
+                            <!--  <div class="flex-caption">
+                                <h3>红红火火</h3>
+                                <p>见证爱情. </p>
+                             </div> -->
+                        </li>
+                        <li style="float: left; display: block; width: 966px;" class="">
+                            <!-- Image -->
+                            <img alt="Original" class="img-responsive" quality="100"
+                                 src="pictures/8.jpg">
+                            <!--  <div class="flex-caption">
+                                <h3>红红火火</h3>
+                                <p>见证爱情. </p>
+                             </div> -->
+                        </li>
+                        <li style="float: left; display: block; width: 966px;" class="">
+                            <!-- Image -->
+                            <img alt="Original" class="img-responsive" quality="100"
+                                 src="pictures/9.jpg">
+                            <!--  <div class="flex-caption">
+                                <h3>红红火火</h3>
+                                <p>见证爱情. </p>
+                             </div> -->
+                        </li>
+                        <li style="float: left; display: block; width: 966px;" class="">
+                            <!-- Image -->
+                            <img alt="Original" class="img-responsive" quality="100"
+                                 src="pictures/10.jpg">
+                            <!--  <div class="flex-caption">
+                                <h3>红红火火</h3>
+                                <p>见证爱情. </p>
+                             </div> -->
+                        </li>
+                        <li style="float: left; display: block; width: 966px;" class="">
+                            <!-- Image -->
+                            <img alt="Original" class="img-responsive" quality="100"
+                                 src="pictures/11.jpg">
+                            <!--  <div class="flex-caption">
+                                <h3>红红火火</h3>
+                                <p>见证爱情. </p>
+                             </div> -->
+                        </li>
+                        <li style="float: left; display: block; width: 966px;" class="">
+                            <!-- Image -->
+                            <img alt="Original" class="img-responsive" quality="100"
+                                 src="pictures/12.jpg">
+                            <!--  <div class="flex-caption">
+                                <h3>红红火火</h3>
+                                <p>见证爱情. </p>
+                             </div> -->
+                        </li>
+                        <li style="float: left; display: block; width: 966px;" class="">
+                            <!-- Image -->
+                            <img alt="Original" class="img-responsive" quality="100"
+                                 src="pictures/13.jpg">
+                            <!--  <div class="flex-caption">
+                                <h3>红红火火</h3>
+                                <p>见证爱情. </p>
+                             </div> -->
+                        </li>
+                        <li style="float: left; display: block; width: 966px;" class="">
+                            <!-- Image -->
+                            <img alt="Original" class="img-responsive" quality="100"
+                                 src="pictures/14.jpg">
+                            <!--  <div class="flex-caption">
+                                <h3>红红火火</h3>
+                                <p>见证爱情. </p>
+                             </div> -->
+                        </li>
+                        <li style="float: left; display: block; width: 966px;" class="">
+                            <!-- Image -->
+                            <img alt="Original" class="img-responsive" quality="100"
+                                 src="pictures/15.jpg">
+                            <!--  <div class="flex-caption">
+                                <h3>红红火火</h3>
+                                <p>见证爱情. </p>
+                             </div> -->
+                        </li>
+                        <li style="float: left; display: block; width: 966px;" class="">
+                            <!-- Image -->
+                            <img alt="Original" class="img-responsive" quality="100"
+                                 src="pictures/16.jpg">
+                            <!--  <div class="flex-caption">
+                                <h3>红红火火</h3>
+                                <p>见证爱情. </p>
+                             </div> -->
+                        </li>
+                    </ul>
+                </div>
+                <ol class="flex-control-nav flex-control-paging">
+                    <!--
+                    <li><a class="flex-active">1</a></li>
+                    <li><a class="">2</a></li>
+                    <li><a class="">3</a></li>
+                    <li><a class="">4</a></li>
+                    <li><a class="">5</a></li>
+                    <li><a class="">6</a></li>
+                    <li><a class="">7</a></li>
+                    <li><a class="">8</a></li>
+                    <li><a class="">9</a></li>
+                    <li><a class="">10</a></li>
+                    -->
+                </ol>
+                <ul class="flex-direction-nav">
+                    <li><a class="flex-prev" href="#">Previous</a></li>
+                    <li><a class="flex-next" href="#">Next</a></li>
+                </ul>
+            </div>
+            <!-- Slider ends -->
+        </div>
+    </div>
+    <div class="border"></div>
+    <a name="wedding" id="wedding"></a>
+    <hr>
+    <div class="itop"><a href="#home" class="anchorLink"><i class="fa fa-chevron-up"></i></a></div>
+    <div class="border"></div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="head">
+                    <div class="bor"></div>
+                    <h2>宴席安排</h2>
+
+                    <div class="bor"></div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="wedding">
+                    <!-- Ceremony details -->
+                    <h4><i class="fa fa-heart"></i> 男方联系方式</h4>
+                    <br>
+                    电话： <a href="tel:15121902334">15084818017</a><br>
+                    <hr>
+                    <!-- Ceremony details -->
+                    <h4><i class="fa fa-heart"></i> 女方联系方式</h4>
+                    <br>
+                    电话： <a href="tel:15121902324">13755111317</a><br>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="wedding">
+                    <!-- Wedding details -->
+                    <h4><i class="fa fa-glass"></i> 宴席行程安排</h4>
+                    <h5>07:30 新郎的接亲队伍准时出发到新娘家</h5>
+                    09:00 排好车队新人出发返回新房<br>
+                    <h5>11:00 宾客签到</h5>
+                    <h5>12:00 婚礼仪式正式开始</h5>
+                    12:30 新人敬酒<br>
+                    14:40 婚礼仪式结束，客人茶歇时间<br>
+
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="wedding">
+                    <h4><i class="fa fa-home"></i> 宴席地点</h4>
+
+                    <div class="show_map">
+                        <!--
+                        <div style="height:10px;"></div>
+                        <div id="allmap" class="mid"></div>
+                        <input style="WIDTH: 100%" id="location" name="location" value="中海隆饭店" type="hidden">
+                        <input id="cityname" name="cityname" value="" style="display:none">
+
+                        <div id="optionsNarrative"><p style="text-align:center"><a target="_blank"
+                                                                                   href="http://api.map.baidu.com/marker?location=22.954589552967,113.09620041581&title=%E5%AE%B4%E5%B8%AD%E4%BD%8D%E7%BD%AE&content=%E4%B8%AD%E6%B5%B7%E9%9A%86%E9%A5%AD%E5%BA%97&output=html"><img
+                                class="img-responsive" src="./s-aefe_files/staticimage"></a></p>
+
+                            <p style="text-align:center; line-heigt:30px;">中海隆饭店</p>
+
+                            <div class="text-center"><a target="_blank"
+                                                        href="http://api.map.baidu.com/marker?location=22.954589552967,113.09620041581&title=%E5%AE%B4%E5%B8%AD%E4%BD%8D%E7%BD%AE&content=%E4%B8%AD%E6%B5%B7%E9%9A%86%E9%A5%AD%E5%BA%97&output=html"
+                                                        class="btn btn-lg btn-danger"> 打开电子地图 </a></div>
+                        </div>
+                        <script>
+                            var SAMPLE_ADVANCED_POST = 'http://api.map.baidu.com/geocoder/v2/?ak=5dbd6ef42378bdd6ed202331c10a27c8&callback=renderOption&output=json';
+                            var advancedOptions = '';
+                            var address;
+
+                            function showOptionsURL(type) {
+                                advancedOptions = SAMPLE_ADVANCED_POST;
+                                address = document.getElementById('location').value;
+                                var cityname = document.getElementById('cityname').value;
+                                advancedOptions += "&address=" + address;
+                                advancedOptions += "&city=" + cityname;
+
+                                var safe = advancedOptions;
+                            }
+                            ;
+
+                            function renderOption(response) {
+                                var html = '';
+                                if (response.status) {
+                                    var text = "无正确的返回结果:\n";
+                                    document.getElementById('optionsNarrative').innerHTML = text;
+                                    return;
+                                }
+                                ;
+                                var location = response.result.location;
+                                var uri = 'http://api.map.baidu.com/marker?location=' + location.lat + ',' + location.lng + '&title=宴席位置&content=' + address + '&output=html';
+                                var staticimageUrl = "http://api.map.baidu.com/staticimage?center=" + location.lng + ',' + location.lat + "&markers=" + location.lng + ',' + location.lat;
+
+                                html += '<p style="text-align:center"><a target="_blank" href="' + uri + '"><img class="img-responsive" src="' + staticimageUrl + 'width=100%&height=200&zoom=14"/></a></p><p style="text-align:center; line-heigt:30px;">中海隆饭店</p><div class="text-center"><a target="_blank" href="' + uri + '" class="btn btn-lg btn-danger"> 打开电子地图 </a></div>';
+                                document.getElementById('optionsNarrative').innerHTML = html;
+                                return;
+                                //document.getElementById('optionsNarrative').innerHTML = html;
+                            }
+
+                            function doOptions() {
+                                var script = document.createElement('script');
+                                script.type = 'text/javascript';
+                                showOptionsURL('buttonClick');
+                                var newURL = advancedOptions.replace('5dbd6ef42378bdd6ed202331c10a27c8', '5dbd6ef42378bdd6ed202331c10a27c8');
+                                script.src = newURL;
+                                document.body.appendChild(script);
+                            }
+                            ;
+                            doOptions();
+                        </script>
+
+                        <div style="height:10px;"></div>
+                    </div>
+                    -->
+                        <iframe width="224" height="220" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                                src="http://j.map.baidu.com/ynJJz"></iframe>
+                        <!-- baidu map 2 end -->
+                        <b><p>宁乡 · 金洲</p></b>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="./s-aefe_files/saved_resource"></script>
+
+        <div class="border"></div>
+        <hr>
+        <div class="itop"><a href="#home" class="anchorLink"><i class="fa fa-chevron-up"></i></a></div>
+
+        <!-- [[footer start]] -->
+        <!-- Footer -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <p class="text-center">
+                            <a class="btn btn-info" href="tel:15121902334"><i class="fa fa-phone"></i> 15084818017</a>
+                            &nbsp;
+                            <a class="btn btn-info" href="tel:15121902324"><i class="fa fa-phone"></i> 13755111317</a>
+                        </p>
+
+                        <div class="border"></div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </footer>
+        <!-- [[footer end]] -->
+
+        <!-- [[foot start]] -->
+        <!-- JS -->
+        <script src="./s-aefe_files/jquery.js"></script>
+        <script src="./s-aefe_files/bootstrap.min.js"></script>
+        <script src="./s-aefe_files/jquery.flexslider-min.js"></script>
+        <script src="./s-aefe_files/jquery.anchor.js"></script>
+        <script src="./s-aefe_files/custom_wed.js"></script>
+        <script src="./s-aefe_files/weixin.share.js"></script>
+        <!-- [[foot end]] -->
+<span style="position: relative; font-size: 1px; width: 2px; height: 2px; display: none;"><script
+        src="./s-aefe_files/stat.php" language="JavaScript"></script><script src="./s-aefe_files/core.php"
+                                                                             charset="utf-8"
+                                                                             type="text/javascript"></script><a
+        href="http://www.cnzz.com/stat/website.php?web_id=5932167" target="_blank" title="站长统计">站长统计</a></span>
+
+
+        <script src="./s-aefe_files/nr-476.min.js"></script>
+        <script type="text/javascript" src="./s-aefe_files/4dcf0bad7e"></script>
+    </div>
+</div>
+
+</body>
+</html>
